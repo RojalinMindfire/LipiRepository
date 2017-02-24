@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Group Suite" duration-ms="30" started-at="2017-02-20T17:18:20Z" finished-at="2017-02-20T17:18:20Z">
+    <groups>
+      <group name="sanity">
+        <method signature="GroupTests.navigateToElectronicSection()[pri:0, instance:SeeleniumTest.GroupTests@18a4622]" name="navigateToElectronicSection" class="SeeleniumTest.GroupTests"/>
+        <method signature="GroupTests.navigateToWomenSection()[pri:0, instance:SeeleniumTest.GroupTests@18a4622]" name="navigateToWomenSection" class="SeeleniumTest.GroupTests"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Group test" duration-ms="30" started-at="2017-02-20T17:18:20Z" finished-at="2017-02-20T17:18:20Z">
+      <class name="SeeleniumTest.GroupTests">
+        <test-method status="PASS" signature="navigateToElectronicSection()[pri:0, instance:SeeleniumTest.GroupTests@18a4622]" name="navigateToElectronicSection" duration-ms="0" started-at="2017-02-20T22:48:20Z" finished-at="2017-02-20T22:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToElectronicSection -->
+        <test-method status="PASS" signature="login()[pri:0, instance:SeeleniumTest.GroupTests@18a4622]" name="login" is-config="true" duration-ms="0" started-at="2017-02-20T22:48:20Z" finished-at="2017-02-20T22:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:SeeleniumTest.GroupTests@18a4622]" name="logout" is-config="true" duration-ms="0" started-at="2017-02-20T22:48:20Z" finished-at="2017-02-20T22:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="navigateToWomenSection()[pri:0, instance:SeeleniumTest.GroupTests@18a4622]" name="navigateToWomenSection" duration-ms="0" started-at="2017-02-20T22:48:20Z" finished-at="2017-02-20T22:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWomenSection -->
+      </class> <!-- SeeleniumTest.GroupTests -->
+    </test> <!-- Group test -->
+  </suite> <!-- Group Suite -->
+</testng-results>

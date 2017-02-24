@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name= " Ecommerce Suite">
+<test name="Flipkart test">
+<classes>
+<class name="SeeleniumTest.Test1"/>
+<class name="SeeleniumTest.Test2"/>
+</classes>
+</test>
+</suite>

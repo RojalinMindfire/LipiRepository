@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name= "parallel Suite" parallel="classes" thread-count="2">
+<test name="Parralel test">
+<classes>
+<class name="SeeleniumTest.Test1"/>
+<class name="SeeleniumTest.Test2"/>
+</classes>
+</test>
+</suite>
